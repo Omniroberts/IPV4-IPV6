@@ -1,0 +1,9 @@
+| Type                     | Prefix    | Purpose              |
+| ------------------------ | --------- | -------------------- |
+| **Global Unicast (GUA)** | 2000::/3  | Public, internet     |
+| **Link-Local Unicast**   | fe80::/10 | Local LAN only       |
+| **Unique Local (ULA)**   | fc00::/7  | Private network      |
+| **Multicast**            | ff00::/8  | One-to-many          |
+| **Anycast**              | (shared)  | Closest host routing |
+| **Loopback**             | ::1       | Local testing        |
+| **Unspecified**          | ::        | No address assigned  |
